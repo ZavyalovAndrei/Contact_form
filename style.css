@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2")
+    format ("woff2");
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2")
+    format ("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("/background.jpg");
+  background-repeat: no-repeat;
+}
+
+.form-container {
+  width: 1373px;
+  min-height: 1444px;
+  padding: 75px 100px 110px 75px;
+  border: 5px solid #fff;
+  font-family: Poppins, sans-serif;
+  font-size: 47px;
+  line-height: 2;
+  color: #fff;
+  font-weight: lighter;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.data-input {
+  display: block;
+  width: 100%;
+  height: 112px;
+  background-color: transparent;
+  border: 3px solid #fff;
+}
+
+.long-cell {
+  grid-column: 1 / 10 span;
+}
+
+.prefessional-cell {
+  grid-column: 1 / 10 span;
+}
+
+.short-cell {
+  grid-column: 1 / 4;
+}
+
+::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+::-moz-calendar-picker-indicator {
+  display: none;
+}
+
+.date {
+  color: inherit;
+  font-size: inherit;
+}
+
+.mediate-cell {
+  grid-column: 4 / 10 span;
+  margin-left: 45px;
+}
+
+.button {
+  font-weight: normal;
+  font-size: 59px;
+  height: 90px;
+  color: inherit;
+  text-transform: uppercase;
+  background-color: #ff6721;
+}
+
+.info-text {
+  font-size: 35px;
+}
